@@ -49,7 +49,7 @@ def main():
     )
 
     # --- Header ---
-    st.html("""<h1 style="text-align: center; color: #6ca395;">🪴 <i>Art Appreceation </i> 💬</h1>""")
+    st.html("""<h1 style="text-align: center; color: #6ca395;">🪴 <i>Art Appreciation </i> 💬</h1>""")
 
     # --- Side Bar ---
     with st.sidebar:
