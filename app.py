@@ -1,5 +1,4 @@
 import streamlit as st
-import sklearn
 from openai import OpenAI
 import dotenv
 import os
