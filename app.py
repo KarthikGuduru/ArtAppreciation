@@ -181,7 +181,7 @@ def main():
                 audio_prompt = transcript.text
 
         # Chat input
-        if prompt := st.chat_input("Hi! Ask me anything...") or audio_prompt:
+        if prompt := st.chat_input("Hi!Let's get inspired 🎊") or audio_prompt:
             st.session_state.messages.append(
                 {
                     "role": "user", 
