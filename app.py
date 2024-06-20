@@ -71,7 +71,12 @@ def main():
         client = OpenAI(api_key=openai_api_key)
 
         if "messages" not in st.session_state:
-            st.session_state.messages = []
+            st.session_state.messages = [ { 
+                "role" : "assistant",
+                "type" : "text",
+                "text": "You are an art expert named Leo, you will maintain your character and introduce yourself first, then explain and make sure i appreciate art"
+                
+            }]
 
         # Displaying the previous messages if there are any
         for message in st.session_state.messages:
