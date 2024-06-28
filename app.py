@@ -11,7 +11,7 @@ dotenv.load_dotenv()
 
 # Function to query and stream the response from the LLM
 def stream_llm_response(client, model_params):
-    response_message = 
+    response_message = ""
 
     for chunk in client.chat.completions.create(
         model=model_params["model"] if "model" in model_params else "gpt-4o",
